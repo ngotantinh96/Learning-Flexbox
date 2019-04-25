@@ -8,20 +8,32 @@
   margin: -10px 0 10px -10px;
 }
 
-.gutters .cell {
+.gutters > div {
   padding: 10px 0 0 10px;
 }
 
-.cell {
-  flex: 1; /* 1 1 0% */
-}
-
-.cell > div {
+.grid div div {
   background-color: rgba(255, 255, 255, 0.7);
-  height: 100%;
   padding: 10px;
+  height: 100%;
 }
 
-.large {
-    flex-grow: 3;
+.half {
+  flex-basis: 50%;
+}
+
+.third {
+  flex-basis: 33.33333%;
+}
+
+.fourth {
+  flex-basis: 25%;
+}
+
+.fifth {
+  flex-basis: 25%;
+}
+
+.sixth {
+  flex-basis: 16.66666%;
 }
