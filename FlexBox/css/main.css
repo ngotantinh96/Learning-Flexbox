@@ -1,21 +1,27 @@
 /* Your code goes here */
-.container {
+.grid {
   display: flex;
   flex-direction: row;
-  border: 1px solid #fff;
-  width: 800px;
 }
 
-.container div {
-  float: right;
-  flex: 1 1 20%;
-  margin: 0;
+.gutters {
+  margin: -10px 0 10px -10px;
 }
 
-.container div:nth-child(2) {
-    flex-grow: 2;
+.gutters .cell {
+  padding: 10px 0 0 10px;
 }
 
-.container div:nth-child(3) {
+.cell {
+  flex: 1; /* 1 1 0% */
+}
+
+.cell > div {
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 100%;
+  padding: 10px;
+}
+
+.large {
     flex-grow: 3;
 }
