@@ -1,21 +1,19 @@
 /* Your code goes here */
-.vcenter {
+.media {
   display: flex;
-  height: 150px;
-  align-items: center;
-  justify-content: space-around;
-  border: 1px solid white;
+  flex-flow: row wrap;
 }
 
-nav {
-  width: 400px;
+.figure {
+  flex: 1 1 40%;
+  align-self: center;
+  order: 1;
 }
 
-li {
-  list-style: none;
-  flex-basis: 25%;
+.media-body {
+  flex: 1 1 60%;
 }
 
 p {
-  margin: 0;
+  margin: 0 10px 20px 10px;
 }
