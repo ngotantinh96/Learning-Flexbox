@@ -44,3 +44,35 @@
         flex: 1 0 auto;
     }
 }
+
+@media screen and (min-width: 600px) {
+    .advanced-nav ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .advanced-nav ul li {
+        flex: 1 0 220px;
+    }
+
+    .advanced-nav ul li a {
+        display: flex;
+    }
+
+    .advanced-nav ul li a .icon {
+        flex-basis: 60px;
+        font-size: 35px;
+    }
+
+    .advanced-nav ul li a .text {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .advanced-nav ul li a .text span {
+        display: block;
+        font-size: 15px;
+        font-style: italic;
+        font-weight: lighter;
+    }
+}
