@@ -13,6 +13,12 @@ body {
   margin: 0;
 }
 
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 header,
 footer {
   background-color: black;
@@ -84,4 +90,30 @@ p {
   .site-title {
     font-size: 4em;
   }
+}
+
+.main-content-area {
+  padding: 2em;
+}
+
+.post {
+  background-color: white;
+  margin-bottom: 1em;
+}
+
+.post a {
+  color: black;
+  text-decoration: none;
+}
+
+.post-content {
+  padding: 0 40px 20px;
+}
+
+.post-content h2 {
+  background: #f6d200;
+  text-align: center;
+  padding: 20px;
+  color: black;
+  margin: 0 -40px 30px;
 }
