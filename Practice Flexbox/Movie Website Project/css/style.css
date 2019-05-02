@@ -173,14 +173,30 @@ p {
 }
 
 .movie-info span {
-    padding-right: 1.5em;
+  padding-right: 1.5em;
 }
 
 .movie-story {
-    margin: 1em 0;
+  margin: 1em 0;
 }
 
 .watch-content {
-    color: white;
-    font-weight: bold;
+  color: white;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 810px) {
+  .watch-card {
+    display: flex;
+  }
+
+  .watch-content {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+  }
+
+  .img-right {
+    order: 2;
+  }
 }
